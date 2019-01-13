@@ -17,6 +17,8 @@ int i,j;
 
 void setup() {
 
+TIMSK0= 0;
+
   for( i = 0; i < rowNum; i++){
     pinMode(rowPin[i],OUTPUT);
   }
